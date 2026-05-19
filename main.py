@@ -1,6 +1,6 @@
-def main():
-    print("Hello from ml-mentoring-model-calibration-problem!")
+import pandas as pd
+import sklearn
+import seaborn as sns
 
-
-if __name__ == "__main__":
-    main()
+df = pd.read_csv("heart.csv")
+df.head()
